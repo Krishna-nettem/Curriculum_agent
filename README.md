@@ -1,1 +1,3 @@
 # Curriculum_agent
+
+This project uses a LangGraph-based multi-agent system to construct a structured course curriculum from a user-specified topic.  A Pydantic-based state is utilized to handle shared data, such as the topic, extracted research, and final curriculum draft.  The Research Agent does real-time web searches with the Google Custom Search API and updates the shared state with key learning concepts.  When there is insufficient data, a conditional routing system retries the study and sends it to a mimicked Human Review node after several failures.  Finally, the Curriculum Designer agent employs the Gemini LLM to convert the research material into an organized Markdown-based curriculum.

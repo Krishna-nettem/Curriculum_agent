@@ -355,7 +355,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ### ⭐ Star this repo if you find it useful!
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by NKNS
 
 </div>
 ```
